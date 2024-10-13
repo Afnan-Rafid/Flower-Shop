@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+nav {
+    background-color: #fceef1;
+    padding: 15px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+ nav h3 {
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+ }
+
+ nav span{
+    color: #e55473;
+ }
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+nav ul li:hover {
+    color: #e6869b;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul button {
+    padding: 10px;
+    background-color: rgba(247, 197, 131, 0.874);
+    border: 0;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+nav ul button:hover {
+    background-color:rgba(243, 210, 168, 0.874); ;
+}
+
+.hero {
+    background: #fceef1;
+    height: 100vh;
+    gap: 20px;
+}
+
+.hero-wrapper {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-right {
+    width: 50%;
+    align-items: end;
+}
+
+
+
+.hero-left {
+    width: 50%;
+}
+
+
+.hero-left h2 {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(38,38,38);
+}
+
+.hero-left p {
+    font-size: 15px;
+    margin: 20px 0px;
+    color: rgb(110, 110, 110);
+}
+
+.hero-left button {
+    background-color: #e55473;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.hero-left button:hover {
+    background-color: #e55473b9;
+}
+
+.flower-one {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.flower-one h3 {
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+
+.flower-one p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 15px;
+    color: rgb(124, 124, 124);
+    padding: 20px;
+}
+
+.flower-one li {
+    cursor: pointer;
+}
+
+.flower-one li:hover{
+    color: rgb(57, 167, 167);
+}
+
+.flower-box {
+    justify-content: space-between;
+    align-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+
+.box {
+    width: 300px;
+    height: 330px;
+    text-align: center;
+    gap: 10px;
+}  
+
+.box li {
+    margin: 15px;
+    list-style: none;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.bg1 {
+    background: #f2dee8;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%; 
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}  
+
+.bg2 {
+    background: #daf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}  
+
+.bg3 {
+    background: #e4ecdc;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+} 
+
+.services {
+    padding: 50px 0px;
+    cursor: pointer;
+}
+
+.services .wrapper {
+    justify-content: space-between;
+    align-content: center;
+    background: #e6e6e680;
+    padding: 40px;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+
+
+.service-box {
+    text-align: center;
+}
+
+.service-box h4 {
+    font-weight: bold;
+    color: rgb(84, 84, 84);
+    margin: 5px;
+}
+
+.hot-deal {
+    background-color: #FEF7F8;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.deal {
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.deal2 {
+    width: 80%;
+    align-items: center;
+}
+
+.hot-deal .left {
+    padding: 150px;
+    text-align: center;
+    gap: 20px;
+}
+
+.left h3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.left p {
+    padding: 20px 0 20px 20px;
+    font-size: 15px;
+    color: rgb(124, 124, 124);
+}
+
+.left span {
+    color: #e55473;
+}
+
+.left button {
+    background-color: #e55473;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.left button:hover {
+    background-color: #c56579;
+}
+
+.right {
+    padding: 50px 0;
+}
+
+
+.insta {
+    text-align: center;
+    padding: 80px 0;
+    cursor: pointer;
+}
+
+.insta h3 {
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+
+.insta p {
+    width: 55%;
+    margin: 0 auto;
+    font-size: 15px;
+    color: rgb(124, 124, 124);
+    padding: 20px 0;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.email {
+    background-image: url(assets/Rectangle\ 9.png);
+    height: 300px;
+    width: 100%;
+    margin-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+.text h2 {
+    font-size: 30px;
+    padding: 20px 20px 10px 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.text p {
+    font-size: 15px;
+    padding-bottom: 30px;
+    color: rgb(124, 124, 124);
+}
+
+.text input {
+    width: 500px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.text input::placeholder {
+    padding: 8px;
+}
+
+.text button {
+    background-color: #e55473;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer
+}
+
+.text button:hover{
+    background-color: #c56579;
+}
+
+footer {
+    position: absolute;
+    background: #111;
+    height: 250px;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.footer-content span {
+    color: #e55473;
+}
+
+.footer-content h2 {
+    font-size: 30px;
+    padding: 30px 0 20px 0;
+    font-family: sans-serif;
+}
+
+.footer-content p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #E7E7E7;
+}
+
+.footer-content h6 {
+    color: rgb(124, 124, 124);
+    padding: 20px;
+}
